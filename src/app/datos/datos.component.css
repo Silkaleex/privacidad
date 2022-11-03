@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  height: auto;
+}
+.seccionA {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 201, 0, 1) 0%,
+    rgba(241, 255, 0, 1) 25%,
+    rgba(168, 255, 0, 1) 50%,
+    rgba(0, 252, 255, 1) 75%,
+    rgba(0, 255, 4, 1) 100%
+  );
+  margin: auto;
+  padding: 50px;
+}
+.seccionB {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 201, 0, 1) 0%,
+    rgba(241, 255, 0, 1) 25%,
+    rgba(168, 255, 0, 1) 50%,
+    rgba(0, 252, 255, 1) 75%,
+    rgba(0, 255, 4, 1) 100%
+  );
+  margin: auto;
+  padding: 50px;
+}
+fieldset {
+  background-color: #dad7cd;
+  width: 90%;
+  padding: 20px;
+}
+form {
+  margin: 0px auto;
+}
+
+footer {
+  background-color: #34a0a4;
+  color: #041e42;
+  border: 1px groove #99d98c;
+  border-radius: 15px;
+  padding: 5px 15px;
+  width: 45%;
+}
+
+li {
+  margin: 5px;
+}
+
+.pd {
+  padding: 0px 30px;
+}
+
+.m-15 {
+  margin: 15px;
+}
+
+.fs-8 {
+  font-size: 8px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="color"]):not([type="button"]):not([type="reset"]),
+select,
+textarea,
+textarea[type="text"] {
+  font-family: "Montserrat", sans-serif;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+  border: 1px solid var(--color-lightGrey);
+  font-size: 1em;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  display: block;
+  width: 55%;
+  margin: 5px;
+}
+
+.seleccion {
+  background-color: #52b788;
+  color: #f0f3bd;
+  width: 60%;
+  padding: 0px 20px;
+  margin: 5px 0px 5px 0px;
+}
